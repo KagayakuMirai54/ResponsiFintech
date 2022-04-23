@@ -8,22 +8,27 @@
     tools:context=".RegisterActivity">
 
     <LinearLayout
+        android:id="@+id/ic_backlogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="left"
-            android:src="@drawable/ic_note_24" />
-
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:src="@drawable/ic_note_24" />-->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="46dp"
             android:text="Register Account"
             android:textColor="@color/black"
             android:textSize="30sp"
@@ -119,7 +124,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/btregister"
+                android:id="@+id/btn_register"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

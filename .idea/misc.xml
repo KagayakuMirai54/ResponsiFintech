@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ResponsiFintech/app/src/main/res/drawable/bgedittext.xml" value="0.1195" />
+        <entry key="..\:/ResponsiFintech/app/src/main/res/drawable/ic_arrow_back.xml" value="0.135" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/drawable/ic_btnhistory.xml" value="0.1195" />
+        <entry key="..\:/ResponsiFintech/app/src/main/res/drawable/ic_note_24.xml" value="0.135" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_home.xml" value="0.16" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_recovery.xml" value="0.16983695652173914" />
-        <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_register.xml" value="0.16983695652173914" />
+        <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_recovery.xml" value="0.22" />
+        <entry key="..\:/ResponsiFintech/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/layout/fragment_history.xml" value="0.16983695652173914" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/layout/fragment_home.xml" value="0.23696682464454977" />
         <entry key="..\:/ResponsiFintech/app/src/main/res/layout/fragment_payment.xml" value="0.16983695652173914" />

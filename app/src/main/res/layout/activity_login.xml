@@ -19,11 +19,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
-        android:drawableLeft="@drawable/ic_email"
         android:text=" Email"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/ic_email" />
 
     <EditText
         android:id="@+id/etemail"
@@ -65,50 +65,48 @@
             android:inputType="textPassword"
             android:paddingStart="20dp"
             android:textColorHint="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btregister"
+        android:id="@+id/btn_Login"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
-        android:paddingStart="20dp"
         android:backgroundTint="@color/white"
+        android:paddingStart="20dp"
         android:text="Login"
-        android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/here"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:paddingStart="20dp"
-        android:text="@string/link"
-        android:textStyle="bold"
         android:textColor="@color/black"
+        android:onClick="here"
+        android:text="@string/link"
         android:textSize="20sp" />
+
     <TextView
         android:id="@+id/here2"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:paddingStart="20dp"
-        android:text="@string/link2"
+        android:onClick="here2"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="20sp" />
-
-
-
-
+        android:text="@string/link2"
+        android:textSize="20sp"/>
 
 </LinearLayout>

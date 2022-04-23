@@ -8,22 +8,29 @@
     tools:context=".RecoveryActivity">
 
     <LinearLayout
+        android:id="@+id/ic_back"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="left"
-            android:src="@drawable/ic_arrow_back" />
+<!--        <ImageView-->
+<!--            android:id="@+id/backlgnactvty"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="left"-->
+<!--            android:src="@drawable/ic_arrow_back" />-->
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="46dp"
             android:text="Recovery Account"
             android:textColor="@color/black"
             android:textSize="30sp"
@@ -37,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:drawableLeft="@drawable/ic_email"
         android:text=" Email"
         android:textColor="@color/black"
