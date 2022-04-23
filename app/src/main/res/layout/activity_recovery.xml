@@ -8,9 +8,8 @@
     tools:context=".RecoveryActivity">
 
     <LinearLayout
-        android:id="@+id/ic_back"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="100dp"
         android:orientation="horizontal">
 
 <!--        <ImageView-->
@@ -21,16 +20,17 @@
 <!--            android:src="@drawable/ic_arrow_back" />-->
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button
+            android:id="@+id/ic_back"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
             android:drawableLeft="@drawable/ic_arrow_back" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="46dp"
+            android:layout_marginTop="4dp"
             android:text="Recovery Account"
             android:textColor="@color/black"
             android:textSize="30sp"
