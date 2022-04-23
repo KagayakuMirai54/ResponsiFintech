@@ -21,7 +21,7 @@
 
 
         <Button
-            android:id="@+id/ic_back"
+            android:id="@+id/btn_back"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:backgroundTint="@color/white"

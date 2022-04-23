@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.Button
 
 class RegisterActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var ic_back : Button
+    private lateinit var btn_backrgstr : Button
     private lateinit var btn_Register: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,8 +16,8 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
             btn_Register = findViewById(R.id.btn_Login)
             btn_Register.setOnClickListener(this)
 
-            ic_back = findViewById(R.id.ic_back)
-            ic_back.setOnClickListener(this)
+            btn_backrgstr = findViewById(R.id.btn_backrgstr)
+            btn_backrgstr.setOnClickListener(this)
 
         }
         override fun onClick(v: View) {
@@ -28,9 +28,9 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
             when (v.id) {
-                R.id.ic_back -> {
-                    val intent = Intent(this@RegisterActivity, HomeActivity::class.java)
-                    startActivity(intent)
+                R.id.btn_backrgstr -> {
+                    val intent2 = Intent(this@RegisterActivity, LoginActivity::class.java)
+                    startActivity(intent2)
                 }
             }
         }

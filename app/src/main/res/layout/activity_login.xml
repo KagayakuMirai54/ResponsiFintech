@@ -84,7 +84,7 @@
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/here"
+        android:id="@+id/tv_here"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -92,21 +92,19 @@
         android:layout_marginBottom="20dp"
         android:paddingStart="20dp"
         android:textColor="@color/black"
-        android:onClick="here"
         android:text="@string/link"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/here2"
+        android:id="@+id/tv_here2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:paddingStart="20dp"
-        android:onClick="here2"
         android:textColor="@color/black"
-        android:text="@string/link2"
+        android:text="@string/link1"
         android:textSize="20sp"/>
 
 </LinearLayout>

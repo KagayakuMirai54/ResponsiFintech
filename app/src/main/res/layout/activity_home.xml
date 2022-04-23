@@ -32,12 +32,18 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </HorizontalScrollView>
+
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
-
 
     <HorizontalScrollView
         android:layout_width="match_parent"

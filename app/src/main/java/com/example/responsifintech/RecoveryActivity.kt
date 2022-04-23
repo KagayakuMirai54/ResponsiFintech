@@ -7,20 +7,20 @@ import android.view.View
 import android.widget.Button
 
 class RecoveryActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var ic_back : Button
+    private lateinit var btn_back : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recovery)
 
-        ic_back = findViewById(R.id.ic_back)
+        btn_back = findViewById(R.id.btn_back)
 
-        ic_back.setOnClickListener(this)
+        btn_back.setOnClickListener(this)
 
 
     }
     override fun onClick(v: View) {
         when (v.id) {
-            R.id.ic_back -> {
+            R.id.btn_back -> {
                 val intent = Intent(this@RecoveryActivity, LoginActivity::class.java)
                 startActivity(intent)
             }
